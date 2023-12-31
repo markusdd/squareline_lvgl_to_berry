@@ -22,7 +22,7 @@ When callbacks for e.g. buttons are found I do generate a function skeleton simi
 You can copy those out and fill them with the functionality you need.
 
 ## Example
-I just provide this here as I made it for a little private project and thought it might be useful. You can look at the [examples](example/README.md) folder, there is a basement
+I just provide this here as I made it for a little private project and thought it might be useful. You can look at the [example](example/) folder, there is a basement
 light controller UI that I made in Squareline studio.
 The code you see does not cover the line widget I used
 to draw the basement walls, this is handcoded in another file as Squareline Studio cannot do the arbitrary line widget as of December 2023, so ignore that.
