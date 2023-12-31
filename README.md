@@ -21,6 +21,8 @@ So it is recommended after conversion that you copy out the parts from `ui.be` t
 When callbacks for e.g. buttons are found I do generate a function skeleton similar to what Squareline studio outputs into `ui_events.c`.
 You can copy those out and fill them with the functionality you need.
 
+You can set the debug variable to `True` at the top of the script, then it will output some regex debug on the console. This might help if you wish to do enhancements or debug the output. PRs for improvements are welcome.
+
 ## Example
 I just provide this here as I made it for a little private project and thought it might be useful. You can look at the [example](example/) folder, there is a basement
 light controller UI that I made in Squareline studio.
