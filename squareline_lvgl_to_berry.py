@@ -86,7 +86,7 @@ with open("ui_Screen1.c", "r") as f:
                     if match[1] not in cbs:
                         # avoid outputting duplicate callback skeletons
                         # so we remember which ones we already have
-                        tf.write("def " + match[1] + "(obj, event)\n\nend\n")
+                        tf.write("\ndef " + match[1] + "(obj, event)\n\nend\n")
                         cbs.append(match[1])
                     line = line.replace("NULL", "0")
 
