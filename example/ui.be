@@ -164,26 +164,32 @@ ui_SwitchLabel4.set_y(330)
 ui_SwitchLabel4.set_text("Heizungs- und\nEinmachkeller")
 ui_SwitchLabel4.set_style_text_font(lv.montserrat_font(20), lv.PART_MAIN | lv.STATE_DEFAULT)
 
+
 def ui_event_ButtonAllOn(obj, event)
 
 end
 ui_ButtonAllOn.add_event_cb(ui_event_ButtonAllOn, lv.EVENT_ALL, 0)
+
 def ui_event_ButtonAllOff(obj, event)
 
 end
 ui_ButtonAllOff.add_event_cb(ui_event_ButtonAllOff, lv.EVENT_ALL, 0)
+
 def ui_event_Switch1(obj, event)
 
 end
 ui_Switch1.add_event_cb(ui_event_Switch1, lv.EVENT_ALL, 0)
+
 def ui_event_Switch2(obj, event)
 
 end
 ui_Switch2.add_event_cb(ui_event_Switch2, lv.EVENT_ALL, 0)
+
 def ui_event_Switch3(obj, event)
 
 end
 ui_Switch3.add_event_cb(ui_event_Switch3, lv.EVENT_ALL, 0)
+
 def ui_event_Switch4(obj, event)
 
 end
